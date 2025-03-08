@@ -3,16 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-p.X1{
-    border:15px solid;
-    border-bottom-color: rgb(0, 255, 174);
-    border-top-color: brown;
-    border-left-color: black;
-    border-right-color: blue;
-    border-bottom-style: double;
-    border-left-style: double ;
-    border-left: 30px solid;
-    border-left-style: groove;
-    border-right-style: dashed;
-   
+
+input,
+button{
+    width: 400px;
+    padding: 5px;
+    margin: 10px 0;
+}
+button:active{
+    background-color: aquamarine;
+    color: white;
+    border-radius: 5px;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
 }
