@@ -3,18 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
-button{
-    width: 200px;
-    height: 150px;
-    padding: 20px;
-    
-}
-button{
-    background-color: red;
+.nav{
+    background-color: green;
+    padding: 50px;
+    margin: 10px;
     color: white;
-    border-radius: 5px;
+    text-align: center;
+    padding: 40px;
 }
-button:active{
-    background-color: aliceblue;
+img{
+    display: block;
+    margin: auto;
+    border-radius: 30%;
+    width: 150px;
+    height: 100px;
 }
-    
+social{
+  
+    color: white;
+    text-align: center;
+}
+h4{
+background-color: black;
+color: white;
+text-align: center;
+padding: 10px;
+
+}
+table{
+    width: 100%;
+}
