@@ -1,19 +1,57 @@
-.transform-element{
-    width: 200px;
-    height: 200px;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav{
+    background-color: green;
+    padding: 50px;
+    margin: 10px;
+    color: white;
     text-align: center;
-   font-size: 50; 
-    color: rgb(15, 19, 19);
-    line-height: 50px;
-    border: 5px solid gold;
-    margin: 150px auto;
+    padding: 40px;
+}
+a{
+    color: white;
+    
+    text-decoration: none;
+    margin: 20px;
+    text-align: left;
+
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    color: white;
+    background-color: green;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px;
+    width: 100px;
+    height: 30px;
+
+}
+div{
+    text-align: center;
     
 }
-.transform-element{
-    background-color: bisque;
-    
+.menu{
+    background-color: gray;
+    color: black;
+    text-align: center;
 }
-.transform-element:active{
-    background-color: aqua;
-    transform: rotate(45deg);
+ table{
+    width: 100%;
+}
+.email{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
