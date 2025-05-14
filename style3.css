@@ -2,34 +2,29 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.nav{
-    background-color: green;
-    padding: 50px;
-    margin: 10px;
+.box{
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    line-height: 100px;
+    gap: 10px 10px;
+   
+}
+.item{
+    background-color: rgb(47, 89, 148);
     color: white;
     text-align: center;
-    padding: 40px;
-}
-img{
-    display: block;
-    margin: auto;
-    border-radius: 30%;
-    width: 150px;
-    height: 100px;
-}
-social{
-  
-    color: white;
-    text-align: center;
-}
-h4{
-background-color: black;
-color: white;
-text-align: center;
-padding: 10px;
+    width:calc(25% - 10px)
 
 }
-table{
-    width: 100%;
+.item:nth-of-type(5) {
+    background-color: rgb(47, 89, 148);
+    color: white;
+    text-align: center;
+    width: calc(50% - 10px)
+    
 }
